@@ -61,6 +61,9 @@ $ npm run test:cov
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fommishra0%2FCircuit-Breaker)
 
+## Live Demo
+Check out the running application here: [https://circuit-breaker-five.vercel.app/dashboard](https://circuit-breaker-five.vercel.app/dashboard)
+
 
 When you're ready to deploy your NestJS application to production, there are some key steps you can take to ensure it runs as efficiently as possible. Check out the [deployment documentation](https://docs.nestjs.com/deployment) for more information.
 
