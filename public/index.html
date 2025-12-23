@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resilient Gateway Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+
+  <!-- Vercel Speed Insights (Auto-Injected usually, but adding manually for robust detection) -->
+  <script>
+    window.si = window.si || function () { (window.si.q = window.si.q || []).push(arguments); };
+  </script>
+  <script defer src="/_vercel/speed-insights/script.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Gateway Status</h1>
+    
+    <div id="dashboard" class="dashboard-grid">
+      <div class="loading">Loading live data...</div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
